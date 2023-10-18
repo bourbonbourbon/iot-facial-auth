@@ -1,0 +1,4 @@
+venv/
+.env
+captured_images/*.jpg
+logs/*.txt
