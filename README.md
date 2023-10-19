@@ -6,8 +6,17 @@ This is a Python application for capturing images from a camera, comparing them 
 
 Before using this application, please ensure you have the following prerequisites:
 
-- Python 3.x installed in a virtual environment.
+- Python 3.10.11 installed in a virtual environment.
 - AWS CLI configured with your API keys.
+
+# OpenCV Install on RPi
+
+Installing OpenCV using pip till take a lot of time and may be error prone. This is why it is better to install it using `apt`, which installs the prebuilt wheel
+
+Run this command in the terminal:
+```bash
+sudo apt install python3-opencv
+```
 
 ## Installation
 

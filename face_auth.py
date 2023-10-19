@@ -91,7 +91,6 @@ def upload_image(s3, bucket, capture_filename, pic_taken):
 
 def print_output(result):
     print("\n")
-    print(f"Source Face Confidence: {result['SourceImageFace']['Confidence']}")
     for match in result["FaceMatches"]:
         print(
             f"Similarity between compared faces is {result['FaceMatches'][0]['Similarity']}")
