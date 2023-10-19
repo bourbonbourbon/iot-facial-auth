@@ -15,12 +15,12 @@ def aws_init():
 def init_cam():
     cam = cv2.VideoCapture(0)
     print("Starting camera...")
-    cam.set(cv2.CAP_PROP_AUTOFOCUS, 0)
-    cam.set(cv2.CAP_PROP_FOCUS, 360)
-    cam.set(cv2.CAP_PROP_BRIGHTNESS, 130)
-    cam.set(cv2.CAP_PROP_SHARPNESS, 125)
-    cam.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-    cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+    # cam.set(cv2.CAP_PROP_AUTOFOCUS, 0)
+    # cam.set(cv2.CAP_PROP_FOCUS, 360)
+    # cam.set(cv2.CAP_PROP_BRIGHTNESS, 130)
+    # cam.set(cv2.CAP_PROP_SHARPNESS, 125)
+    # cam.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+    # cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
     face_cascade = cv2.CascadeClassifier(
         "./haarcascade/haarcascade_frontalface_default.xml")
     return cam, face_cascade
