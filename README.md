@@ -11,7 +11,7 @@ Before using this application, please ensure you have the following prerequisite
 
 ## Install OpenCV on RasberryPi
 
-Installing OpenCV using pip till take a lot of time and may be error prone. This is why it is better to install it using `apt`, which installs the prebuilt wheel
+Installing OpenCV using pip till take a lot of time and may be error prone. This is why it is better to install it using `apt`, which installs the prebuilt wheel.
 
 Run this command in the terminal:
 ```bash
